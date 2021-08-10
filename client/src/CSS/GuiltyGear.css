@@ -1,0 +1,12 @@
+.characters {
+    display: flex;
+    justify-content: center;
+}
+
+.char {
+    padding: 5px;
+}
+
+.char-icon {
+    border-radius: 10px;
+}
