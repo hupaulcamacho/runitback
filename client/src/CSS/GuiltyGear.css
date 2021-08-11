@@ -1,12 +1,41 @@
 .characters {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
+    width: 60%;
+    margin: auto;
 }
 
 .char {
-    padding: 5px;
+    padding: 10px;
+    background-color: rgb(180, 2, 2);  
+    border-radius: 10px;
+}
+.char:hover {
+    background-color: rgb(255, 98, 98);
 }
 
 .char-icon {
     border-radius: 10px;
 }
+
+.char-link {
+    padding: 5px;
+}
+
+.char-portrait {
+    animation-name: fadeInRight;
+    animation-duration: 0.75s;
+}
+
+@keyframes fadeInRight {
+    0% {
+      opacity: 0;
+      transform: translate3d(100%, 0, 0);
+    }
+  
+    100% {
+      opacity: 1;
+      transform: none;
+    }
+  }
