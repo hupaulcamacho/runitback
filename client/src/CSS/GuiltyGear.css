@@ -7,20 +7,33 @@
 }
 
 .char {
-    padding: 10px;
+    padding: 50px;
+    margin: 10px;
     background-color: rgb(180, 2, 2);  
     border-radius: 10px;
 }
 .char:hover {
     background-color: rgb(255, 98, 98);
+    transform: scale(1.1);
 }
 
 .char-icon {
+    height: 150px;
+    width: 150px;
     border-radius: 10px;
 }
 
 .char-link {
     padding: 5px;
+}
+.char-title {
+    color: white;
+    margin: 10px;
+    align-self: center;
+    height: auto;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(99, 14, 14);  
 }
 
 .char-portrait {

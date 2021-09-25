@@ -5,6 +5,8 @@ import { Link } from 'react-router-dom';
 import { characters } from '../Loaders/GG_loader';
 
 export default function GuiltyGear() {
+
+
     let charComponents = [];
 
     for (let char in characters) {
@@ -12,7 +14,7 @@ export default function GuiltyGear() {
             <Link className='char-link' to={`/GGST/${char}`}>
                 <div className='char'>
                     <img className='char-icon'src={characters[char].icon} height='100px'/><br/>
-                    <p>{characters[char].charName}</p>
+                    <p className='char-title'>{characters[char].charName}</p>
                 </div>
             </Link>
         )

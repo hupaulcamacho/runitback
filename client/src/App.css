@@ -8,13 +8,13 @@
 }
 
 a:link {
-  color: white;
+  /* color: white; */
   text-decoration: none;
   border-radius: 2px;
 }
 
 a:visited {
-  color: white;
+  /* color: white; */
   text-decoration: none;
 }
 
